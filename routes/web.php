@@ -20,3 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/group/index', 'GroupController@index')->name('group-index');
+
+Route::get('/samples/sample-001', 'HomeController@sample001')->name('sample-001');
+Route::get('/samples/sample-002', 'HomeController@sample002')->name('sample-002');
